@@ -1,4 +1,4 @@
-# TUGAS LIVE 5 - EMILIA SYUHADA AL MUJAHIDAH
+# EMILIA SYUHADA AL MUJAHIDAH
 # Membuat Aplikasi Sederhana menggunakan HTML, CSS, PHP, Java, .JSON, dan membuat file README
 # Aplikasi TO DO LIST SEDEHANA
 
