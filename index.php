@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Tugas Live 5 - Emilia Syuhada</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TO DO LIST APP</h1>
+      <h5>JWD Tugas Live 5 - Emilia Syuhada Al Mujahidah</h5>
+      <div id="input-card" class="card card-1">
+      <label for="todo-input">List the details of your work</label>
+      <div class="input-container">
+        <input type="text" id="todo-input" placeholder="What do you need to do?">
+        <button id="add-btn">Add</button>
+      </div>
+    </div>
+    <div id="todo-list" class="card card-2">
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
