@@ -1,0 +1,92 @@
+
+body {
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Perubahan: Menggunakan flex-direction: column; */
+  height: 100vh;
+  box-shadow: ;
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-1{
+  background-color: #CD5888;
+  margin-bottom: 10px; /* Perubahan: Menambahkan margin-bottom */
+}
+
+.card-2 {
+  background-color: #8B1874;
+}
+
+h1 {
+  font-size: 54px;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+h5 {
+font-size: 12px;
+text-align: center;
+font-style: italic;
+margin-top: 10;
+margin-bottom: 5px;
+font-family: Arial, sans-serif;
+}
+
+label {
+  font-size: 15px;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 5px;
+}
+
+#todo-input {
+  flex-grow: 1;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#add-btn {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #FCAEAE;
+}
+
+.task {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.delete-icon {
+  cursor: pointer;
+
+}
